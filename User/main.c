@@ -3,6 +3,7 @@
 #include "bps_usart.h"
 #include <stdio.h>
 #include "bps_ili9341_lcd.h"
+#include "bps_Font.h"
 extern uint16_t lcdid;
 extern uint16_t read_Pixel_Format(void);
 extern void delay_ms(unsigned int n);
